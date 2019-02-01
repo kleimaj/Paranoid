@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kleimaj.cs412_assignment3.MainActivity">
+    <item android:id="@+id/action_start"
+        android:title="START"
+        app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/action_pause"
+        android:title="PAUSE"
+        app:showAsAction="ifRoom"></item>
+        <item android:id="@+id/action_stop"
+            android:title="STOP"
+            app:showAsAction="ifRoom"
+        ></item>
+</menu>
